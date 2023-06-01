@@ -27,6 +27,7 @@ for item in items:
     # Ajouter les données à la liste:
     data.append([title, description])
 
+
 # Écrire les données dans un fichier CSV:
 output_file = "data.csv"
 with open(output_file, "w", newline="", encoding="utf-8") as csv_file:
