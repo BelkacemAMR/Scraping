@@ -26,4 +26,3 @@ Ci-joint les étapes du code pour l'exemple du Scraping sur Python :
 
 9. Une fois que le programme a terminé d'exécuter, il affiche un message indiquant que le scraping est terminé et que les données ont été enregistrées dans le fichier CSV.
 
-Ce code est un exemple simple de scraping de données à partir d'une page web spécifique. Vous pouvez l'adapter en fonction de vos besoins spécifiques, en modifiant l'URL cible, les sélecteurs CSS pour extraire d'autres éléments, et en ajoutant des fonctionnalités supplémentaires pour l'analyse des données extraites.
