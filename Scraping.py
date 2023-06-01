@@ -27,3 +27,11 @@ for item in items:
     # Ajouter les données à la liste:
     data.append([title, description])
 
+# Écrire les données dans un fichier CSV:
+output_file = "data.csv"
+with open(output_file, "w", newline="", encoding="utf-8") as csv_file:
+    writer = csv.writer(csv_file)
+    writer.writerow(["Title", "Description"])  # Écrire l'en-tête du CSV
+    writer.writerows(data)  # Écrire les données
+
+print("Scraping terminé. Les données ont été enregistrées dans", output_file)
