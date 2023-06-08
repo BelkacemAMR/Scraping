@@ -6,7 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 
-# URL de la page internet à scraper :
+# URL de la page internet à scraper : (exemple)
 url = "https://github.com/BelkacemAMR"
 
 # Effectuer la requête HTTP:
