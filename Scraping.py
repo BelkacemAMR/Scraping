@@ -32,7 +32,9 @@ for item in items:
 output_file = "data.csv"
 with open(output_file, "w", newline="", encoding="utf-8") as csv_file:
     writer = csv.writer(csv_file)
-    writer.writerow(["Title", "Description"])  # Écrire l'en-tête du CSV
-    writer.writerows(data)  # Écrire les données
+    # Écrire l'en-tête du CSV
+    writer.writerow(["Title", "Description"])  
+    # Écrire les données
+    writer.writerows(data)  
 
 print("Scraping terminé. Les données ont été enregistrées dans", output_file)
